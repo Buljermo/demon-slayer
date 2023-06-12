@@ -3,7 +3,7 @@
 /* -- Värimäärittelyt ------------------------------------------------- */
 
 :root {
-  --primary: #FFB600;
+  --primary: #000000;
   --secondary: #E84855;
   --neutral-lightest: #FFFFFF;
   --neutral-light: #F3F3F3;
@@ -173,6 +173,7 @@ a.active .menu_badge {
   justify-content: center;             /* keskitetään sisältö */
   align-items: baseline;               /* tekstit alkavat samasta tasosta */
   color: var(--neutral-darkest);       /* tekstin väri */ 
+  text-shadow:1px 1px 1px #cdbfbf;
 }
 
 .header_sub {
@@ -204,6 +205,8 @@ a.active .menu_badge {
 .balance {
   font-size: 1.5em;                    /* tekstin koko */ 
   text-align: right;                   /* asemoidaan oikeaan reunaan */
+  color: #000000;
+  text-shadow:1px 1px 1px #cdbfbf;
 }
 
 .balance_total {
@@ -244,6 +247,8 @@ a.active .menu_badge {
 
 .booster {
   text-align: center;                  /* teksti asemoidaan keskelle */
+  color: #000000;
+  text-shadow:1px 1px 1px #cdbfbf;
 }
 
 /* -- Item-komponentti ----------------------------------------------- */
