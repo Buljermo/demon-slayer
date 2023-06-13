@@ -13,12 +13,16 @@ import click10 from '../assets/click10.mp3';
 import click11 from '../assets/click11.mp3';
 import click12 from '../assets/click12.mp3';
 import click13 from '../assets/click13.mp3';
+import click14 from '../assets/click14.mp3';
+import click15 from '../assets/click15.mp3';
+import click16 from '../assets/click16.mp3';
+import click17 from '../assets/click17.mp3';
 import SoundButton from './SoundButton';
 
 
 const clickSounds = [click1, click2, click3, click4,
   click5, click6, click7, click8,
-  click9, click10, click11, click12, click13];
+  click9, click10, click11, click12, click13, click14, click15, click16, click17];
 
 function Lemon(props) {
   const [isSoundOn, setIsSoundOn] = useState(true);
