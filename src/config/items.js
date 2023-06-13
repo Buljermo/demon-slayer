@@ -1,7 +1,7 @@
 export default [
     { 
       id: "lemontree",
-      name: "Lemon tree",
+      name: "Shuriken",
       qty: 0,
       baseprice: 10,
       price: 10,
@@ -10,7 +10,7 @@ export default [
     },
     { 
       id: "blender",
-      name: "Blender",
+      name: "Nunchaku",
       qty: 0,
       baseprice: 70,
       price: 70,
@@ -19,7 +19,7 @@ export default [
     },
     { 
       id: "carbonator",
-      name: "Carbonator",
+      name: "Battle axe",
       qty: 0,
       baseprice: 490,
       price: 490,
@@ -28,7 +28,7 @@ export default [
     },
     { 
       id: "bottler",
-      name: "Bottler",
+      name: "Crowbar",
       qty: 0,
       baseprice: 3400,
       price: 3400,
@@ -37,7 +37,7 @@ export default [
     },
     { 
       id: "truck",
-      name: "Truck",
+      name: "Glaive",
       qty: 0,
       baseprice: 24000,
       price: 24000,
@@ -46,7 +46,7 @@ export default [
     },
     { 
       id: "spring",
-      name: "Spring",
+      name: "Cleaver",
       qty: 0,
       baseprice: 169000,
       price: 169000,
@@ -55,7 +55,7 @@ export default [
     },
     { 
       id: "sugarcane",
-      name: "Sugar cane field",
+      name: "Relic blade",
       qty: 0,
       baseprice: 1200000,
       price: 1200000,
@@ -64,7 +64,7 @@ export default [
     },   
     { 
       id: "warehouse",
-      name: "Warehouse",
+      name: "Gun",
       qty: 0,
       baseprice: 8400000,
       price: 8400000,
@@ -73,7 +73,7 @@ export default [
     }, 
     { 
       id: "lab",
-      name: "Lab",
+      name: "Grenade",
       qty: 0,
       baseprice: 59000000,
       price: 59000000,
@@ -82,7 +82,7 @@ export default [
     },
     { 
       id: "secret",
-      name: "Secret ingredient",
+      name: "Submachine gun",
       qty: 0,
       baseprice: 417000000,
       price: 417000000,
@@ -91,7 +91,7 @@ export default [
     },
     {
       id: "power",
-      name: "Power plant",
+      name: "Machine gun",
       qty: 0,
       baseprice: 2950000000,
       price: 2950000000,
@@ -100,7 +100,7 @@ export default [
     },
     {
       id: "park",
-      name: "Amusement park",
+      name: "War tank",
       qty: 0,
       baseprice: 20800000000,
       price: 20800000000,
@@ -109,7 +109,7 @@ export default [
     },
     {
       id: "lemonai",
-      name: "LemonAI",
+      name: "Missile",
       qty: 0,
       baseprice: 147000000000,
       price: 147000000000,
@@ -118,7 +118,7 @@ export default [
     },
     {
       id: "accelerator",
-      name: "Particle accelerator",
+      name: "Holy biceps",
       qty: 0,
       baseprice: 1040000000000,
       price: 1040000000000,

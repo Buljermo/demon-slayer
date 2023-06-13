@@ -1,33 +1,6 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
-	 viewBox="0 0 512 512" xml:space="preserve">
-<rect x="77.192" y="256" style="fill:#EBE5DD;" width="248.163" height="248.163"/>
-<g>
-	<rect x="256" y="256" style="fill:#D9CCBC;" width="69.36" height="248.163"/>
-	<rect x="186.64" y="7.837" style="fill:#D9CCBC;" width="248.163" height="248.163"/>
-</g>
-<rect x="186.64" y="7.837" style="fill:#EBE5DD;" width="69.36" height="248.163"/>
-<rect x="208.98" y="154.216" style="fill:#D9CCBC;" width="15.673" height="15.673"/>
-<g>
-	<rect x="288.893" y="103.016" style="fill:#EBE5DD;" width="15.673" height="15.673"/>
-	<rect x="374.356" y="163.255" style="fill:#EBE5DD;" width="15.673" height="15.673"/>
-	<rect x="363.677" y="97.97" style="fill:#EBE5DD;" width="15.673" height="15.673"/>
-</g>
-<rect x="231.967" y="55.999" style="fill:#D9CCBC;" width="15.673" height="15.673"/>
-<rect x="303.971" y="192.167" style="fill:#EBE5DD;" width="15.673" height="15.673"/>
-<path d="M442.645,0H178.808v248.163H69.355V512h263.837V263.837h109.453V0z M317.518,496.327H85.029v-232.49h232.49V496.327z
-	 M426.971,248.163h-232.49V15.673h232.49V248.163z"/>
-<g>
-	<rect x="132.932" y="402.38" style="fill:#D9CCBC;" width="15.673" height="15.673"/>
-	<rect x="190.401" y="351.18" style="fill:#D9CCBC;" width="15.673" height="15.673"/>
-</g>
-<g>
-	<rect x="275.853" y="411.418" style="fill:#EBE5DD;" width="15.673" height="15.673"/>
-	<rect x="265.174" y="346.133" style="fill:#EBE5DD;" width="15.673" height="15.673"/>
-</g>
-<g>
-	<rect x="155.92" y="304.159" style="fill:#D9CCBC;" width="15.673" height="15.673"/>
-	<rect x="205.479" y="440.33" style="fill:#D9CCBC;" width="15.673" height="15.673"/>
-</g>
+<svg fill="#000000" width="800px" height="800px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<title>relic-blade</title>
+<path d="M20.48 4.619l-0.071 2.265-1.593 0.425-0.071 1.77-8.53 8.495c0.054 1.561-1.068 2.634-2.053 2.548-1.476-0.129-2.059-1.067-2.053-2.336-0.985 1.071-1.514 2.43-1.522 3.787 1.009 0 2.021 0.274 2.915 0.814l-0.169 0.603c-1.535 1.084-3.246 2.879-4.077 4.332-0.102 0.179-0.186 0.344-0.254 0.497l-1.99 0.557-0.093 2.598 2.598-0.093 0.561-2.008c0.149-0.067 0.309-0.148 0.481-0.247 1.447-0.828 3.234-2.528 4.319-4.059l0.605-0.169c0.522 0.886 0.797 1.887 0.8 2.874 1.394 0 2.812-0.53 3.893-1.557-1.507-0.221-2.393-1.102-2.301-2.088 0.152-1.612 1.090-2.023 2.442-1.982l8.672-8.672 1.416-0.035 0.389-1.416 2.478-0.106 2.655-9.451-9.45 2.655zM26.38 10.254l-2.442 0.072-0.401 1.458-3.681 0.146 0.109-3.681 1.603-0.437 0.073-2.296 6.56-1.821-1.822 6.56z"></path>
 </svg>
