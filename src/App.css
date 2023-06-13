@@ -219,7 +219,7 @@ a.active .menu_badge {
 /* -- Demon-komponentti ----------------------------------------------- */
 
 .lemon {
-  width: 60%;                          /* kuvan leveys 60% alueen leveydestä */
+  width: 75%;                          /* kuvan leveys 60% alueen leveydestä */
   margin: 0 auto;                      /* keskitetään kuva */
 }
 
@@ -241,6 +241,16 @@ a.active .menu_badge {
     -webkit-transform: scale(0.9, 0.9);          /* skaalataan kuva animaatiossa pienemmäksi */
             transform: scale(0.9, 0.9);          /* animaation jälkeen kuva palaa alkuperäiseen kokoon */
   }
+}
+
+.soundsbutton {
+  display: block;
+  margin: 0 auto;
+  text-align: center; 
+  background-color: #ab5b5b;  
+  color: #000000;
+  text-shadow:1px 1px 1px #cdbfbf;     
+  font-size: 1em;
 }
 
 /* -- booster-div ----------------------------------------------------- */

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import lemon from '../assets/lemon-big.svg'
 import click1 from '../assets/click1.mp3';
 import click2 from '../assets/click2.mp3';
@@ -21,19 +21,30 @@ const clickSounds = [click1, click2, click3, click4,
   click9, click10, click11, click12, click13];
 
 
-function Lemon(props) {
-  const handleClick = () => {
-    const randomIndex = Math.floor(Math.random() * clickSounds.length);
-    const audio = new Audio(clickSounds[randomIndex]);
-    audio.play();
-    props.onClick();
-  };
+  function Lemon(props) {
+    const [isSoundOn, setIsSoundOn] = useState(true);
+  
+    const handleClick = () => {
+      if (isSoundOn) {
+        const randomIndex = Math.floor(Math.random() * clickSounds.length);
+        const audio = new Audio(clickSounds[randomIndex]);
+        audio.play();
+      }
+      props.onClick();
+    };
 
-  return (
-    <div className="lemon">
-      <img src={lemon} alt="lemon" onClick={handleClick} />
-    </div>
-  );
+const handleToggleSound = () => {
+  setIsSoundOn(!isSoundOn);
+};
+
+return (
+  <div className="lemon">
+    <img src={lemon} alt="lemon" onClick={handleClick} />
+    <button className='soundsbutton' onClick={handleToggleSound}>
+      {isSoundOn ? 'sounds off' : 'sounds on'}
+    </button>
+  </div>
+);
 }
 
 export default Lemon;
