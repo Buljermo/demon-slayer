@@ -13,38 +13,35 @@ import click10 from '../assets/click10.mp3';
 import click11 from '../assets/click11.mp3';
 import click12 from '../assets/click12.mp3';
 import click13 from '../assets/click13.mp3';
-
+import SoundButton from './SoundButton';
 
 
 const clickSounds = [click1, click2, click3, click4,
   click5, click6, click7, click8,
   click9, click10, click11, click12, click13];
 
+function Lemon(props) {
+  const [isSoundOn, setIsSoundOn] = useState(true);
 
-  function Lemon(props) {
-    const [isSoundOn, setIsSoundOn] = useState(true);
-  
-    const handleClick = () => {
-      if (isSoundOn) {
-        const randomIndex = Math.floor(Math.random() * clickSounds.length);
-        const audio = new Audio(clickSounds[randomIndex]);
-        audio.play();
-      }
-      props.onClick();
-    };
+  const handleClick = () => {
+    if (isSoundOn) {
+      const randomIndex = Math.floor(Math.random() * clickSounds.length);
+      const audio = new Audio(clickSounds[randomIndex]);
+      audio.play();
+    }
+    props.onClick();
+  };
 
-const handleToggleSound = () => {
-  setIsSoundOn(!isSoundOn);
-};
+  const handleToggleSound = () => {
+    setIsSoundOn(!isSoundOn);
+  };
 
-return (
-  <div className="lemon">
-    <img src={lemon} alt="lemon" onClick={handleClick} />
-    <button className='soundsbutton' onClick={handleToggleSound}>
-      {isSoundOn ? 'sounds off' : 'sounds on'}
-    </button>
-  </div>
-);
+  return (
+    <div className="lemon">
+      <img src={lemon} alt="lemon" onClick={handleClick} />
+      <SoundButton isSoundOn={isSoundOn} onClick={handleToggleSound} />
+    </div>
+  );
 }
 
 export default Lemon;
