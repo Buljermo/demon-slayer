@@ -35,7 +35,7 @@ body {
   color: var(--neutral-darker);                   /* sovelluksen tekstiväri */
   font-family: 'Permanent Marker', cursive;
   /*font-family: 'Roboto Condensed', sans-serif;  /* sovelluksen fontti */
-  font-size: 1.2em;                            /* sovelluksen tekstin koko */
+  font-size: 1.3em;                            /* sovelluksen tekstin koko */
 }
 
 h1 {
