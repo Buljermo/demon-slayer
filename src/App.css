@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Roboto+Condensed:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 /* -- Värimäärittelyt ------------------------------------------------- */
 
 :root {
@@ -27,12 +27,14 @@ body {
   /* background-color: var(--neutral); */
    /* sovelluksen taustaväri */
   color: var(--neutral-darker);                   /* sovelluksen tekstiväri */
-  font-family: 'Roboto Condensed', sans-serif;  /* sovelluksen fontti */
-  font-size: 1.25em;                            /* sovelluksen tekstin koko */
+  font-family: 'Permanent Marker', cursive;
+  /*font-family: 'Roboto Condensed', sans-serif;  /* sovelluksen fontti */
+  font-size: 1.2em;                            /* sovelluksen tekstin koko */
 }
 
 h1 {
-  font-family: 'Boogaloo', cursive;             /* otsikon fontti */
+  font-family: 'Permanent Marker', cursive;  
+  /*font-family: 'Boogaloo', cursive;             /* otsikon fontti */
   font-weight: normal;                          /* otsikon paksuus */
 }
 
@@ -182,11 +184,11 @@ a.active .menu_badge {
 }
 
 .header h1 {
-  font-size: 4.5em;                    /* pääsivun otsikon koko */
+  font-size: 3em;                    /* pääsivun otsikon koko */
 }
 
 .header_sub h1 {
-  font-size: 3em;                      /* alasivun otsikon koko */
+  font-size: 2em;                      /* alasivun otsikon koko */
 }
 
 .header_sub div {
@@ -210,7 +212,7 @@ a.active .menu_badge {
 }
 
 .balance_total {
-  font-size: 2.2em;                    /* luvun tekstikoko */
+  font-size: 2em;                    /* luvun tekstikoko */
   color: var(--primary);               /* luvun värinä tehoste*/
   margin-top: -0.15em;                 /* viedään lukua lähemmäs selitetekstiä */
   font-weight: bold;                   /* teksti lihavoitu */
@@ -381,6 +383,6 @@ a.active .menu_badge {
 
 @media (max-width: 30em) {
   .header h1 {
-    font-size: 3em;                              /* pääsivun otsikon koko, kun leveys alle raja-arvon */
+    font-size: 1.5em;                              /* pääsivun otsikon koko, kun leveys alle raja-arvon */
   }
 }
